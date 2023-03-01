@@ -51,22 +51,26 @@ function Login() {
     };
 
     return (
-        <>
+        <div className="fullWrap">
             <div className="navigate">
 
                 <a href="/">
 
                     <img
                         src={Logo}
-                        alt="linkin logo"
+                        alt="linkedin logo"
                     />
                 </a>
+
+
                 <div className="b1">Join now</div>
                 <div className="b2">Sign in</div>
 
+
             </div>
             <div className="greet">
-                Connecting millions of people around the world.
+                <pre>Welcome to your  </pre>
+                <pre>professional community </pre>
             </div>
 
             <div className='loginBox' >
@@ -113,7 +117,7 @@ function Login() {
                 </div>
             </div>
 
-        </>
+        </div>
     );
 }
 
